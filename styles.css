@@ -231,10 +231,7 @@ nav {
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-svg{
-    height: 64px;
-    width: 64px;
-}
+
 .features-list {
     display: flex;
     gap: 24px;
