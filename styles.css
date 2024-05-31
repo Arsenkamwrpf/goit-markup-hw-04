@@ -96,6 +96,7 @@ p {
 .monkeys{    
 position: relative;
 color: #404bbf;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .monkeys::after{
     content: "";
@@ -106,7 +107,6 @@ color: #404bbf;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio:active,
 .studio:hover {
