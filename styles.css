@@ -84,19 +84,21 @@ p {
     color: #2e2f42;
 }
 
-.studio {
+.nav-link {
+    color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.monkeys{    
+.current{    
 position: relative;
 color: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.monkeys::after{
+.current::after{
     content: "";
     width: 100%;
     position: absolute;
@@ -106,20 +108,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
     border-radius: 2px;
 }
-.studio:active,
-.studio:hover {
+.nav-link:active,
+.nav-link:hover {
     color: #404bbf;
 
-}
-
-.portfolio {
-    font-weight: 500;
-    color: #2e2f42;
-}
-
-.contacts {
-    font-weight: 500;
-    color: #2e2f42;
 }
 
 .address {
