@@ -161,6 +161,7 @@ color: #404bbf;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 .first-section-title {
     max-width: 496px;
