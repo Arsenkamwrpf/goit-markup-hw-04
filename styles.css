@@ -94,8 +94,7 @@ p {
     position: relative;
 }
 
-.studio:hover::after,
-.studio:active::after {
+.studio:hover::after {
     color: #404bbf;
     content: "";
     width: 100%;
