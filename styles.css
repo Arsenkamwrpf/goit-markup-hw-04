@@ -429,7 +429,7 @@ gap: 24px;
     background-color: #2e2f42;
 
 }
-.footers-conteiner{
+.footers-container{
     display:flex !important;
     align-items:center;
     margin-right: 120px;
