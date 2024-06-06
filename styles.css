@@ -436,12 +436,11 @@ gap: 24px;
 
 }
 .footers-container{
-
-    display:flex;
+    display: flex;
     align-items:baseline;
 
 }
-.a-p{
+.aaaa{
     margin-right: 120px;
 }
 .footer-logo {
