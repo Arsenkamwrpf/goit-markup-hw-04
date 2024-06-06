@@ -85,6 +85,7 @@ p {
 }
 
 .nav-link {
+    padding: 24px 0;
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
