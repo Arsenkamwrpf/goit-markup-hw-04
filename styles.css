@@ -430,7 +430,7 @@ gap: 24px;
 
 }
 .footers-conteiner{
-    display:flex;
+    display:flex !important;
     align-items:center;
     margin-right: 120px;
 
