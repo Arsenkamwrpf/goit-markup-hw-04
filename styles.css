@@ -284,6 +284,7 @@ nav {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .team-info {
@@ -305,7 +306,15 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.social-app-list{
+    display: flex;
+    justify-content: center;
+gap: 24px;
+.social-app{
+    width: 40px;
+    height: 40px;
+}
+}
 .fourth-section {
     padding: 120px 0 120px 0;
 }
